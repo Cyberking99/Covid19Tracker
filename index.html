@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Covid19 Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="Html/Assets/Css/app.css">
+        <script type="text/javascript" src="Html/Assets/Js/app.js"></script>
+    </head>
+    <body class="bg-image">
+        <div class="loader">
+            <div>G</div>
+            <div>N</div>
+            <div>I</div>
+            <div>K</div>
+        </div>
+        <div class="card" id="card1">
+            <div class="card-header bg-info text-white"><h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/597px-SARS-CoV-2_without_background.png" height="50px"> Cyberking COVID-19 Tracker <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/597px-SARS-CoV-2_without_background.png" height="50px"></h1></div>
+            <div class="card-body">
+                <div id="profileDetails">
+                    <p><input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search by Country..." title="Type in a name"></p>
+                    <button class="collapsible">Total Summary</button>
+                    <div class="totalContent">
+                        <span id="totalConfirmed"><br><br> Total Confirmed</span>
+                        <span id="totalRecovered">totalRecovered +'<br><br> Total Recovered</span>
+                        <span id="totalDeath">+ totalDeath +'<br><br> Total Deaths</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer bg-info text-white">
+            	Copyright @ <script>document.write(new Date().getFullYear());</script><br>
+            	<a href="https://facebook.com/clement.kingsley.9"><i class="fa fa-facebook-square"></i></a>
+            	<a href="https://twitter.com/itzkingkc"><i class="fa fa-twitter-square"></i></a>
+            	<a href="https://wa.me/2348038752155"><i class="fa fa-whatsapp"></i></a>
+            	<a href="tel:+2348038752155"><i class="fa fa-phone-square"></i></a>
+            	<a href="https://linkedin.com/in/kefas-kingsley-082bb21a9/"><i class="fa fa-linkedin-square"></i></a>
+            	<a href="https://github.com/Cyberking99"><i class="fa fa-github-square"></i></a>
+            	<a href="https://hashnode.com/@cyberking"><img src="Img/hashnode.png" width="22px" height="16px"></a>
+            	<br>
+            	<a href="https://kefaskingsley.bloghspot.com/"><b class="name" id="name1">Kefas Kingsley - KC (Cyberking)</b>
+            </div>
+            
+            
+        </div>
+        <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    </body>
+</html>
