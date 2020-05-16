@@ -1,5 +1,3 @@
-alert('Created by Kefas Kingsley\r\nIn case of any error, contact him using +2348038752155');
-
 var countries = [];
 
 function myFunction() {
